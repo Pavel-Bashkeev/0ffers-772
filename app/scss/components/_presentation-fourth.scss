@@ -1,0 +1,31 @@
+.presentation-fourth{
+  margin-bottom: 30px;
+  &__item{
+    &::before{
+      content: '';
+      width: 137px;
+      height: 51px;
+      margin-right: 30px;
+      @extend %bg-cover;
+      flex-shrink: 0;
+    }
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+    &:nth-child(1)::before{
+      background-image: url('../images/dest/presentation/chel-green-light.png');
+    }
+    &:nth-child(2)::before{
+      background-image: url('../images/dest/presentation/chel-green-light.png');
+    }
+    &:nth-child(3)::before{
+      background-image: url('../images/dest/presentation/chel-green.png');
+    }
+    &:nth-child(4)::before{
+      background-image: url('../images/dest/presentation/chel-green.png');
+    }
+  }
+  &__text{
+    font: 400 20px/24px $font;
+  }
+}

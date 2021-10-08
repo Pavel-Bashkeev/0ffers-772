@@ -1,0 +1,32 @@
+.order {
+  padding-bottom: 40px;
+
+  &__text {
+    font: 400 20px/24px $font;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font: 900 30px/36px $font;
+    margin-bottom: 30px;
+    color: #005394;
+  }
+
+  &__link {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    font: 400 20px/24px $font;
+    color: $white;
+    background: linear-gradient(180deg, #00A811 0%, #005B09 100%);
+    border-radius: 20px;
+    padding: 14px 20px 10px;
+  }
+  &-list{
+    &__item{
+      font: 400 20px /24px $font;
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

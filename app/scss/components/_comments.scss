@@ -1,0 +1,85 @@
+.comments{
+  &__title{
+    font: 600 19px/25px $font-comment;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  &__inner{
+    padding: 0 15px;
+  }
+  &-more{
+    padding: 50px 0;
+    &__link{
+      max-width: 320px;
+      text-align: center;
+      font: 600 25px/34px $font;
+      color: #005394;
+      margin: 0 auto;
+    }
+  }
+}
+.comments-btns{
+  margin-bottom: 30px;
+  &__avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    overflow:hidden;
+    margin-right: 16px;
+  }
+  &__input{
+    border:1px solid #c8c8c8;
+    border-radius: 6px;
+    padding: 10px;
+    flex:1;
+    margin-right: 16px;
+    font: 400 18px/24px $font-comment;
+    color: #808080;
+  }
+  &__send{
+    width: 67px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #3b94d9;
+    @extend %bg-contain;
+    background-size: auto;
+    background-image: url('../images/dest/icons/arrow-send.svg');
+  }
+}
+.comments-item{
+  margin-bottom: 35px;
+  &__box{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  &__info{
+    flex:1;
+    &-name{
+      font: 600 17px/23px $font-comment;
+      margin-bottom: 6px;
+    }
+    &-text{
+      font:400 17px / 23px $font-comment;
+      margin-bottom: 10px;
+    }
+    
+  }
+  &__action{
+    &-box{
+      margin-right: 17px;
+    }
+    &-icon{
+      margin-right: 10px;
+    }
+    &-answer{
+      font: 600 14px/19px $font-comment;
+      color: #8c8c8c;
+    }
+    &-date{
+      font: 400 14px /19px $font-comment;
+      color: #949494;
+      margin-left: auto;
+    }
+  }
+}

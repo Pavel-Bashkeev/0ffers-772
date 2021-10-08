@@ -1,0 +1,16 @@
+.presentation-fifth{
+  margin-bottom: 35px;
+  &__text{
+    font: 'italic' 400 20px /24px $font;
+margin-bottom: 30px;
+  }
+  &__img{
+    max-width: 310px;
+    margin-bottom: 14px;
+  }
+  &__title{
+    font:'italic' 400 20px / 24px $font;
+    color:#7a7a7a;
+    max-width: 300px;
+  }
+}

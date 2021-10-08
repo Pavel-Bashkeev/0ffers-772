@@ -1,0 +1,21 @@
+.presentation-second{
+  &__text{
+    font: 700 20px/24px $font;
+    margin-bottom: -15px;
+    z-index: 1;
+    position: relative;
+    max-width: 375px;
+  }
+  &__img{
+    position: relative;
+    z-index: 0;
+  }
+  &__title{
+    font: 700 20px/24px $font;
+    color: #005394;
+    max-width: 330px;
+  }
+  &__subtitle{
+    font: 400 20px/24px $font;
+  }
+}

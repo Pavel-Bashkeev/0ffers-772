@@ -1,0 +1,10 @@
+.presentation-third{
+  &__inner{
+    padding: 24px 21px 35px 21px;
+    background-color: #E0F1FF;
+  }
+  &__text{
+    font: 900 25px /30px $font;
+    margin-bottom: 25px;
+  }
+}

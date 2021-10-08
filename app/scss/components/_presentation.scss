@@ -1,0 +1,10 @@
+.presentation{
+  margin-bottom: 35px;
+  &__img{
+    margin-bottom: 30px;
+  }
+  &__text{
+    font:'italic' 20px/24px $font;
+    color:#868686
+  }
+}

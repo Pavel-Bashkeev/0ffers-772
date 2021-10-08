@@ -1,0 +1,22 @@
+@import '../../node_modules/reset-css/sass/reset';
+@import './settings/classFrame';
+@import './settings/vars';
+@import './vendor/mixins';
+@import './settings/fonts';
+@import './settings/global';
+
+@import './components/header';
+@import './components/editor';
+@import './components/hero';
+@import './components/answer';
+@import './components/slider';
+@import './components/presentation';
+@import './components/question';
+@import './components/presentation-second';
+@import './components/presentation-third';
+@import './components/presentation-fourth';
+@import './components/presentation-fifth';
+@import './components/order';
+@import './components/comments';
+
+

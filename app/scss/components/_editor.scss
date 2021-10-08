@@ -1,0 +1,33 @@
+.editor{
+  padding-top: 24px;
+  background: 4px;
+  &-name{
+    font: 700 15px/15px $font;
+    margin-bottom: 4px;
+  }
+  &-date{
+    font: 400 14px/14px $font;
+    margin-bottom: 10px;
+  }
+  &-count{
+    font: 400 14px / 14px $font;
+    color: #A5A4A4;
+    margin-bottom: 5px;
+    &__first{
+      margin-left: 16px;
+      margin-right: 25px;
+    }
+  }
+  &-icon{
+    &__dot{
+      width: 8px;
+      height: 8px;
+      margin-left: 5px;
+      margin-right: 50px;
+    }
+    &__mes{
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

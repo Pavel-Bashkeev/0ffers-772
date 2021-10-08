@@ -1,0 +1,13 @@
+.hero{
+  &__title{
+    font: 900 30px/36px $font;
+    margin-bottom: 12px;
+  }
+  &__subtitle{
+    font:'italic' 400 23px/28px $font;
+    margin-bottom: 25px;
+  }
+  &-img{
+    margin-bottom: 40px;
+  }
+}
